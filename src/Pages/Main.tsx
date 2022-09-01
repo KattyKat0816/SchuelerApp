@@ -111,7 +111,6 @@ function Main(props: Props) {
         </Drawer>
       </Box>
       <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
         <MainRouting />
       </Box>
     </Box>

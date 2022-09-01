@@ -8,7 +8,7 @@ function HomeLayout() {
     <>
       <Grid container>
         <Grid item>
-          <Card sx={{ maxWidth: 600, marginLeft: 75 }}>
+          <Card sx={{ maxWidth: 600, marginLeft: 52 }}>
             <ButtonBase
               sx={{ display: "block", textAlign: "initial" }}
               onClick={(event) =>
@@ -30,7 +30,7 @@ function HomeLayout() {
           <Grid
             item
             xs={6}
-            sx={{ paddingTop: 10, paddingLeft: 25, paddingRight: 25 }}
+            sx={{ paddingTop: 15, paddingLeft: 25, paddingRight: 25 }}
           >
             <Typography>
               Die ist eine Übungswebseite. Schaut euch an welche Stellen der
@@ -39,7 +39,7 @@ function HomeLayout() {
             </Typography>
           </Grid>
           <Grid item xs={6}>
-            <Card sx={{ maxWidth: 260, marginLeft: 50 }}>
+            <Card sx={{ maxWidth: 260, marginLeft: 50, marginTop: 10 }}>
               <ButtonBase
                 sx={{ display: "block", textAlign: "initial" }}
                 onClick={(event) =>

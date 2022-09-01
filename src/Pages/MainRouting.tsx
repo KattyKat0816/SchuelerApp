@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./About/About";
 import HomeLayout from "./Home/HomeLayout";
 import ImpressumPage from "../Impressum/ImpressumPage";
+import ContactPage from "./Contact/ContactPage";
 
 const useStyles = makeStyles()((theme: Theme) => {
   return {
@@ -19,7 +20,7 @@ function MainRouting() {
     <main className={classes.content}>
       <Routes>
         <Route path={`Home`} element={<HomeLayout />} />
-        <Route path={`Kontakt`} element={<HomeLayout />} />
+        <Route path={`Kontakt`} element={<ContactPage />} />
         <Route path={`Über`} element={<About />} />
         <Route path={`Impressum`} element={<ImpressumPage />} />
         <Route path={``} element={<HomeLayout />} />
