@@ -14,7 +14,6 @@ import {
 } from "@mui/material";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
-import HomeLayout from "./Home/HomeLayout";
 import MainRouting from "./MainRouting";
 
 interface Props {
@@ -25,7 +24,7 @@ interface Props {
   window?: () => Window;
 }
 
-const navItems = ["Home", "Über", "Kontakt", "Impressum"];
+const navItems = ["Home", "Ueber", "Kontakt", "Impressum"];
 const drawerWidth = 240;
 
 function Main(props: Props) {
